@@ -12,7 +12,7 @@ import javax.persistence.Table;
 @Entity
 @Table
 @AccessType(AccessType.Type.FIELD)
-@data
+//@data
 @lombok.Data
 public class Room {
 
