@@ -14,9 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by frankmoley on 5/23/17.
- */
 @RestController
 @RequestMapping(value="/reservations")
 @Api(value="reservations", description = "Data service operations on reservations", tags=("reservations"))

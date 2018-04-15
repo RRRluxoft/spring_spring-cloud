@@ -31,7 +31,7 @@ public class ReservationBusinessServicesApplication {
     @Bean
     public Docket api(){
         return new Docket(DocumentationType.SWAGGER_2).groupName("RoomReservation").select()
-            .apis(RequestHandlerSelectors.basePackage("com.frankmoley.business.reservation"))
+            .apis(RequestHandlerSelectors.basePackage("home.investigation.rrr.business.reservation"))
             .paths(any()).build().apiInfo(new ApiInfo("Room Reservation Services",
                 "A set of services to provide business processes for the Room and Reservations domains", "1.0.0", null,
                 new Contact("Frank Moley", "https://twitter.com/fpmoles", null),null, null));

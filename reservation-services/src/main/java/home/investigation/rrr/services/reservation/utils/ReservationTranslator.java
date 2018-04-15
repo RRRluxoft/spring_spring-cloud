@@ -5,9 +5,6 @@ import home.investigation.rrr.services.reservation.ReservationEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-/**
- * Created by frankmoley on 5/23/17.
- */
 @Component
 public class ReservationTranslator {
 

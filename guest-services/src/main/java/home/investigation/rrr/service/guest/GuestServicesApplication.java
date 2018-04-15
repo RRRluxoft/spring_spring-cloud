@@ -21,7 +21,7 @@ public class GuestServicesApplication {
     @Bean
     public Docket api(){
         return new Docket(DocumentationType.SWAGGER_2).groupName("Guest").select()
-                .apis(RequestHandlerSelectors.basePackage("com.frankmoley.service.guest"))
+                .apis(RequestHandlerSelectors.basePackage("home.investigation.rrr.service.guest"))
                 .paths(any()).build().apiInfo(new ApiInfo("Guest Services",
                         "A set of services to provide data access to guests", "1.0.0", null,
                         new Contact("Frank Moley", "https://twitter.com/fpmoles", null),null, null));

@@ -8,9 +8,6 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import java.sql.Date;
 
-/**
- * Created by frankmoley on 5/23/17.
- */
 @Entity
 @Table(name="RESERVATION")
 public class ReservationEntity {
