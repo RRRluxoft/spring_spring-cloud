@@ -1,4 +1,4 @@
-package home.investigation.rrr.service.discovery;
+package home.investigation.rrr.services.business.reservation;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class EurikaServerApplicationTests {
+public class ReservationBusinessServicesApplicationTests {
 
 	@Test
 	public void contextLoads() {

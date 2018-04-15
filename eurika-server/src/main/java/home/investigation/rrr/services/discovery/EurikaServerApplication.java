@@ -1,4 +1,4 @@
-package home.investigation.rrr.service.discovery;
+package home.investigation.rrr.services.discovery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
