@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/rooms")
-@Api(value = "rooms", description = "Data service ", tags = "rooms")
+@Api(value = "rooms", description = "Data service operation on rooms", tags = "rooms")
 public class RoomController {
 
     @Autowired

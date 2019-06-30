@@ -26,7 +26,7 @@ public class RoomServicesApplication {
             .apis(RequestHandlerSelectors.basePackage("home.investigation.rrr.services.room"))
             .paths(any()).build().apiInfo(new ApiInfo("Room Services",
                 "A set of services to provide data access to rooms", "1.0.0", null,
-                new Contact("Frank Moley", "https://twitter.com/fpmoles", null).getUrl(),null, null));
+                new Contact("RRRLuxoft", "mailto:rrr.lands@ukr.net", null).getUrl(),null, null));
     }
 	public static void main(String[] args) {
 		SpringApplication.run(RoomServicesApplication.class, args);
