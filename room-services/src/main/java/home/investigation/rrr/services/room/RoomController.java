@@ -18,7 +18,7 @@ import java.util.List;
 public class RoomController {
 
     @Autowired
-    private RoomRepository roomRepository;
+    private RoomRepository<Room, Long> roomRepository;
 
     @GetMapping
 //    @RequestMapping(value = "/search")
@@ -27,6 +27,6 @@ public class RoomController {
         if (StringUtils.isNotEmpty(roomNumber)) {
             return Collections.singletonList(this.roomRepository.findByRoomNumber(roomNumber));
         }
-        return (List<Room>) this.roomRepository.findAll();
+        return this.roomRepository.findAll();
     }
 }
