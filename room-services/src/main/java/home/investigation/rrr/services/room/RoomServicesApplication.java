@@ -17,7 +17,7 @@ import static springfox.documentation.builders.PathSelectors.any;
 @SpringBootApplication
 @EnableSwagger2
 @BootstrapConfiguration
-@EnableDiscoveryClient
+@EnableDiscoveryClient  // Eureka
 public class RoomServicesApplication {
 
     @Bean

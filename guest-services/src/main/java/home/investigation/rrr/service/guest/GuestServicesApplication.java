@@ -24,7 +24,7 @@ public class GuestServicesApplication {
                 .apis(RequestHandlerSelectors.basePackage("home.investigation.rrr.service.guest"))
                 .paths(any()).build().apiInfo(new ApiInfo("Guest Services",
                         "A set of services to provide data access to guests", "1.0.0", null,
-                        new Contact("Frank Moley", "https://twitter.com/fpmoles", null),null, null));
+                        new Contact("RRRLuxoft", "mailto:rrr.lands@ukr.net", null),null, null));
     }
 
 	public static void main(String[] args) {

@@ -24,7 +24,7 @@ public class ReservationServicesApplication {
                 .apis(RequestHandlerSelectors.basePackage("home.investigation.rrr.services.reservation"))
                 .paths(any()).build().apiInfo(new ApiInfo("Reservation Services",
                         "A set of services to provide data access to reservations", "1.0.0", null,
-                        new Contact("Frank Moley", "https://twitter.com/fpmoles", null),null, null));
+                        new Contact("RRRLuxoft", "mailto:rrr.lands@ukr.net", null),null, null));
     }
 
 	public static void main(String[] args) {
